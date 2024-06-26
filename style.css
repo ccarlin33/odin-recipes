@@ -1,7 +1,42 @@
+
+html, body{
+    margin:0px;
+}
+
+body {
+    background-color: lightcyan;
+}
+
 h1 {
     background-color: skyblue;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.index-head {
+    background-color: skyblue;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(189, 219, 249);
+    border-bottom-width: 10px;
+    /* border-radius: 25px; */
+}
+
+.recipe-link {
+    background-color: blue;
+    border-radius: 25px; 
+    width: 300px;
+    margin: 24px auto;
+    padding: 36px;
+    color: aliceblue;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    
 }
 
 h3 {
@@ -17,6 +52,9 @@ p {
 
 ul  {
     color: blue;
+    list-style-type: none;
+    padding: 24px;
+    margin: 0px;
 }
 
 ol {
@@ -26,4 +64,11 @@ ol {
 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color: rgb(198, 224, 246);
+    font-weight: 400;
+}
+
+a:hover {
+    background-color: rgb(23, 232, 163);
+    color: rgb(134, 105, 51);
 }
